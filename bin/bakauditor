@@ -68,7 +68,7 @@ if a.version:
     exit()
 
 with open(a.config) as fh:
-    config = yaml.load(fh)
+    config = yaml.safe_load(fh)
 
 defaults = config.get('default')
 if not defaults: defaults = {}
