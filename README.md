@@ -1,5 +1,11 @@
 # bakauditor - Backup Auditor
 
+## This forked version of bakauditor
+
+### Changelog
+- 0.0.16 2022-01 Changing yaml.load() to yaml.safe_load()
+- 0.0.15 original fork (last changes October 2019 - May 2020)
+
 ## What is this
 
 **bakauditor** is an automatic backup auditor robot.
