@@ -4,6 +4,7 @@
 
 ### Changelog
 - 0.0.16 2022-01 Changing yaml.load() to yaml.safe_load()
+  - Fixed pyyaml error using unsafe pyyaml.load() without a Loader, changed to pyyaml.safe_load()
 - 0.0.15 original fork (last changes October 2019 - May 2020)
 
 ## What is this
